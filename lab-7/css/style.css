@@ -1,0 +1,16 @@
+@keyframes lab-7 {
+  0%{
+    background-position:  0 0;
+  }
+
+  100%{
+    background-position: -2165px 0;
+  }
+}
+
+div {
+   animation: lab-7 1s steps(3);
+   width: 718px;
+   height: 810px;
+   background-image: url('../img/Baby.jpg');
+}
